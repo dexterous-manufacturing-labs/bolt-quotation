@@ -1,0 +1,126 @@
+{
+  "technologies": {
+    "FDM": {
+      "name": "Fused Deposition Modeling",
+      "description": "Layer-by-layer deposition of thermoplastic filament",
+      "materials": {
+        "PLA": {
+          "name": "Polylactic Acid",
+          "cost_per_cc": 3.50,
+          "properties": ["Biodegradable", "Easy to print", "Low temperature"],
+          "colors": ["White", "Black", "Red", "Blue", "Green", "Yellow", "Clear"]
+        },
+        "ABS": {
+          "name": "Acrylonitrile Butadiene Styrene", 
+          "cost_per_cc": 4.20,
+          "properties": ["Durable", "Heat resistant", "Chemical resistant"],
+          "colors": ["White", "Black", "Red", "Blue", "Green"]
+        },
+        "PETG": {
+          "name": "Polyethylene Terephthalate Glycol",
+          "cost_per_cc": 5.00,
+          "properties": ["Chemical resistant", "Clear", "Food safe"],
+          "colors": ["Clear", "White", "Black", "Blue"]
+        },
+        "TPU": {
+          "name": "Thermoplastic Polyurethane",
+          "cost_per_cc": 10.00,
+          "properties": ["Flexible", "Rubber-like", "Impact resistant"],
+          "colors": ["Black", "White", "Red", "Blue"]
+        }
+      }
+    },
+    "SLA": {
+      "name": "Stereolithography",
+      "description": "UV light curing of liquid photopolymer resin",
+      "materials": {
+        "Standard_Resin": {
+          "name": "Standard Photopolymer Resin",
+          "cost_per_cc": 12.50,
+          "properties": ["High detail", "Smooth finish", "Brittle"],
+          "colors": ["Clear", "White", "Black", "Gray"]
+        },
+        "Tough_Resin": {
+          "name": "Tough Photopolymer Resin",
+          "cost_per_cc": 21.00,
+          "properties": ["Impact resistant", "Durable", "High detail"],
+          "colors": ["White", "Black", "Clear"]
+        },
+        "Flexible_Resin": {
+          "name": "Flexible Photopolymer Resin",
+          "cost_per_cc": 25.00,
+          "properties": ["Flexible", "Rubber-like", "High detail"],
+          "colors": ["Black", "White", "Clear"]
+        },
+        "Castable_Resin": {
+          "name": "Castable Photopolymer Resin",
+          "cost_per_cc": 29.00,
+          "properties": ["Jewelry casting", "High detail", "Burnout clean"],
+          "colors": ["Purple", "Green"]
+        },
+        "UTR_9000": {
+          "name": "UTR 9000 Selected Resin",
+          "cost_per_cc": 35.00,
+          "properties": ["High strength", "Chemical resistant", "High detail"],
+          "colors": ["Clear", "White", "Black"]
+        }
+      }
+    },
+    "SLS": {
+      "name": "Selective Laser Sintering",
+      "description": "Laser sintering of powdered materials",
+      "materials": {
+        "Nylon_PA12": {
+          "name": "Nylon PA12 Powder",
+          "cost_per_cc": 33.50,
+          "properties": ["Strong", "Functional parts", "Chemical resistant"],
+          "colors": ["White", "Black", "Gray"]
+        },
+        "Nylon_Glass_Filled": {
+          "name": "Glass Filled Nylon",
+          "cost_per_cc": 46.00,
+          "properties": ["Very strong", "Stiff", "Heat resistant"],
+          "colors": ["Gray", "Black"]
+        },
+        "Aluminum_Filled": {
+          "name": "Aluminum Filled Nylon",
+          "cost_per_cc": 54.50,
+          "properties": ["Metallic finish", "Conductive", "Strong"],
+          "colors": ["Metallic Gray"]
+        }
+      }
+    },
+    "MJF": {
+      "name": "Multi Jet Fusion",
+      "description": "HP's powder-based 3D printing with selective thermal fusion",
+      "materials": {
+        "PA12_Natural": {
+          "name": "PA12 Natural (MJF)",
+          "cost_per_cc": 28.00,
+          "properties": ["Strong", "Functional parts", "Smooth finish", "Isotropic"],
+          "colors": ["Natural Gray"]
+        },
+        "PA12_Black": {
+          "name": "PA12 Black (MJF)",
+          "cost_per_cc": 30.00,
+          "properties": ["Strong", "Functional parts", "UV resistant", "Isotropic"],
+          "colors": ["Black"]
+        },
+        "PA11_Natural": {
+          "name": "PA11 Natural (MJF)",
+          "cost_per_cc": 42.00,
+          "properties": ["Bio-based", "Chemical resistant", "Flexible", "Isotropic"],
+          "colors": ["Natural Beige"]
+        },
+        "TPU_Flexible": {
+          "name": "TPU Flexible (MJF)",
+          "cost_per_cc": 58.00,
+          "properties": ["Highly flexible", "Rubber-like", "Impact resistant", "Isotropic"],
+          "colors": ["Black", "Natural"]
+        }
+      }
+    }
+  },
+  "last_updated": "2025-06-24",
+  "currency": "INR"
+}

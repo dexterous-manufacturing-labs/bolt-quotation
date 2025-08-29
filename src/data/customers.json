@@ -1,0 +1,180 @@
+{
+  "customers": {
+    "CUST001": {
+      "company_name": "TechStart Solutions Pvt Ltd",
+      "gstn": "29ABCDE1234F1Z5",
+      "contact_person": "Rajesh Kumar",
+      "email": "rajesh.kumar@techstart.co.in",
+      "phone": "+91-9876543210",
+      "billing_address": {
+        "street": "123 Innovation Drive, Electronics City",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pin": "560100",
+        "country": "India"
+      },
+      "shipping_address": {
+        "street": "123 Innovation Drive, Electronics City",
+        "city": "Bangalore", 
+        "state": "Karnataka",
+        "pin": "560100",
+        "country": "India"
+      },
+      "customer_type": "Business",
+      "discount_rate": 0.00,
+      "payment_terms": "Net 30",
+      "preferred_technologies": ["FDM", "MJF"],
+      "total_orders": 15,
+      "total_spent": 125000.00,
+      "status": "Active",
+      "notes": "Regular customer, prefers quick turnaround times"
+    },
+    "CUST002": {
+      "company_name": "MedDevice Industries Ltd",
+      "gstn": "27FGHIJ5678K2L9",
+      "contact_person": "Dr. Priya Sharma",
+      "email": "p.sharma@meddevice.co.in", 
+      "phone": "+91-9123456789",
+      "billing_address": {
+        "street": "456 Medical Plaza, Bandra Kurla Complex",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pin": "400051",
+        "country": "India"
+      },
+      "shipping_address": {
+        "street": "789 Manufacturing Hub, MIDC",
+        "city": "Pune",
+        "state": "Maharashtra", 
+        "pin": "411019",
+        "country": "India"
+      },
+      "customer_type": "Business",
+      "discount_rate": 0.00,
+      "payment_terms": "Net 15",
+      "preferred_technologies": ["SLA", "MJF"],
+      "total_orders": 8,
+      "total_spent": 250000.00,
+      "status": "Active",
+      "notes": "Medical prototypes, requires biocompatible materials"
+    },
+    "CUST003": {
+      "company_name": "Individual Customer",
+      "gstn": null,
+      "contact_person": "Arjun Reddy",
+      "email": "arjun.reddy@gmail.com",
+      "phone": "+91-9876501234",
+      "billing_address": {
+        "street": "789 Maker Colony, Jubilee Hills",
+        "city": "Hyderabad",
+        "state": "Telangana", 
+        "pin": "500033",
+        "country": "India"
+      },
+      "shipping_address": {
+        "street": "789 Maker Colony, Jubilee Hills",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pin": "500033", 
+        "country": "India"
+      },
+      "customer_type": "Individual",
+      "discount_rate": 0.00,
+      "payment_terms": "Payment on delivery",
+      "preferred_technologies": ["FDM"],
+      "total_orders": 3,
+      "total_spent": 4500.00,
+      "status": "Active",
+      "notes": "Hobbyist maker, small quantity orders"
+    },
+    "CUST004": {
+      "company_name": "AutoParts Manufacturing Ltd",
+      "gstn": "06MNOPQ9012R3S4",
+      "contact_person": "Neha Gupta",
+      "email": "n.gupta@autoparts.co.in",
+      "phone": "+91-9999887766",
+      "billing_address": {
+        "street": "321 Industrial Area, Sector 8",
+        "city": "Gurgaon",
+        "state": "Haryana",
+        "pin": "122001",
+        "country": "India"
+      },
+      "shipping_address": {
+        "street": "654 Production Unit, IMT Manesar",
+        "city": "Manesar",
+        "state": "Haryana",
+        "pin": "122050",
+        "country": "India"
+      },
+      "customer_type": "Business",
+      "discount_rate": 0.00,
+      "payment_terms": "Net 45",
+      "preferred_technologies": ["MJF", "FDM"],
+      "total_orders": 25,
+      "total_spent": 450000.00,
+      "status": "Active",
+      "notes": "Large volume orders, functional automotive parts"
+    },
+    "CUST005": {
+      "company_name": "Design Studio Plus Pvt Ltd",
+      "gstn": "33STUVW3456X7Y8",
+      "contact_person": "Kavya Nair",
+      "email": "k.nair@designstudio.co.in",
+      "phone": "+91-9444556677",
+      "billing_address": {
+        "street": "654 Creative Avenue, T Nagar",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "pin": "600017",
+        "country": "India"
+      },
+      "shipping_address": {
+        "street": "654 Creative Avenue, T Nagar",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "pin": "600017",
+        "country": "India"
+      },
+      "customer_type": "Business",
+      "discount_rate": 0.00,
+      "payment_terms": "Net 30",
+      "preferred_technologies": ["SLA"],
+      "total_orders": 12,
+      "total_spent": 87500.00,
+      "status": "Active",
+      "notes": "Architectural models and high-detail prototypes"
+    },
+    "CUST006": {
+      "company_name": "Test Manufacturing Co",
+      "gstn": "29TESTG1234H5Z6",
+      "contact_person": "John Test",
+      "email": "john.test@testmanufacturing.com",
+      "phone": "+91-9876543210",
+      "billing_address": {
+        "street": "123 Test Street, Industrial Area",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pin": "560001",
+        "country": "India"
+      },
+      "shipping_address": {
+        "street": "456 Shipping Lane, Tech Park",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pin": "560002",
+        "country": "India"
+      },
+      "customer_type": "Business",
+      "discount_rate": 0.10,
+      "payment_terms": "100% advance",
+      "preferred_technologies": ["FDM", "SLA"],
+      "total_orders": 5,
+      "total_spent": 15000.00,
+      "status": "Active",
+      "notes": "Test customer for development and testing purposes. Prefers quick prototyping."
+    }
+  },
+  "last_updated": "2025-06-24",
+  "next_customer_id": "CUST007"
+}
